@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_menu"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/liked_recipe"
+            android:icon="@drawable/ic_baseline_thumb_up_24"
+            android:title="Liked Recipes"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:visible="false">
+        <item android:id="@+id/uploaded_recipies"
+            android:icon="@drawable/ic_baseline_file_upload_24"
+            android:title="My Uploaded Recipes"/>
+    </group>
+
+</menu>
